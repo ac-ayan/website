@@ -1,0 +1,48 @@
+.header-section {
+    display: grid;
+    grid-template-columns: 30% auto;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.header-section .text-section{
+    padding: 20px;
+}
+.header-section .text-section h1{
+    font-size: 80px;
+    font-family: "Baloo Tammudu 2", cursive;
+    /* font-family: "Courgette", cursive; */
+    /* font-family: "Itim", cursive; */
+    /* font-family: "Kalam", cursive; */
+    /* font-family: "Martel Sans", sans-serif; */
+    /* font-family: "Merienda", cursive; */
+    /* font-family: "Patrick Hand", cursive; */
+    /* font-family: "Satisfy", cursive; */
+    font-family: "Special Elite", cursive;
+    /* font-family: "Titillium Web", sans-serif; */
+}
+.header-section .text-section p{
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 18px;
+}
+.header-section .image-section img {
+    width: 600px;
+}
+.button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(95,95,255);
+    padding: 10px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(95, 95, 255, 0.8);
+  }

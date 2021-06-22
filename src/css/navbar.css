@@ -1,0 +1,39 @@
+.nav-item{
+    font-size: 30px;
+    /* font-family: 'BenchNine', sans-serif; */
+    /* font-family: 'Cabin Sketch', cursive; */
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Fredericka the Great', cursive; */
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    /* font-family: 'Handlee', cursive; */
+    /* font-family: 'Libre Barcode 128 Text', cursive; */
+    /* font-family: 'Londrina Shadow', cursive; */
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Nanum Pen Script', cursive;
+    /* font-family: 'Neucha', cursive; */
+    /* font-family: 'Patrick Hand', cursive; */
+    /* font-family: 'Special Elite', cursive; */
+    /* font-family: 'Train One', cursive; */
+    color: #030047 !important;
+}
+.mr-auto {
+    margin-right: 0 !important;
+    width: 700px;
+    justify-content: space-evenly;
+    align-items: right;
+}
+#basic-navbar-nav{
+    align-items: center;
+    justify-content: space-evenly;
+}
+.brand{
+   font-family: 'Train One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+.brand-custom{
+    color: #5f5fff;
+}
+.nav-section{
+    padding:0px 150px;
+}
