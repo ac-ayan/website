@@ -16,11 +16,15 @@
     /* font-family: 'Train One', cursive; */
     color: #030047 !important;
 }
+.nav-item:hover{
+    color: rgb(95,95,255) !important;
+}
 .mr-auto {
     margin-right: 0 !important;
     width: 700px;
     justify-content: space-evenly;
     align-items: right;
+    margin-left: 290px;
 }
 #basic-navbar-nav{
     align-items: center;
@@ -35,5 +39,5 @@
     color: #5f5fff;
 }
 .nav-section{
-    padding:0px 150px;
+    padding:0px 175px;
 }

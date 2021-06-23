@@ -1,0 +1,24 @@
+.about-section{
+    display: grid;
+    grid-template-columns: 30% 40%;
+    justify-content: space-evenly !important;
+    margin: 110px 0 20px 0;
+    
+}
+.about-section .text-section{
+    text-align: justify;
+    padding: 150px 20px;
+    align-items: center;
+}
+.about-section .text-section h1{
+    font-family: "Special Elite", cursive;
+    font-size: 60px;
+}
+.about-section .text-section p{
+    line-height: 1.9rem;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 18px;
+}
+.about-section .image-section img{
+    width: 500px;
+}

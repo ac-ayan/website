@@ -2,10 +2,26 @@
     display: grid;
     grid-template-columns: 30% auto;
     margin-top: 50px;
-    justify-content: space-evenly;
+    margin: 50px 100px;
+}
+.header-section .text-section .sub-div{
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+.header-section .text-section .sub-div ul{
+    list-style-type: none;
+    padding-left: 0px !important;
+}
+.header-section .text-section .sub-div .social{
+    font-size: 30px;
+    text-align: left;
+    
+}
+.header-section .text-section .sub-div ul li{
+    margin: 30px 0;
 }
 .header-section .text-section{
-    padding: 20px;
+    padding-top: 50px;
 }
 .header-section .text-section h1{
     font-size: 80px;
@@ -24,6 +40,9 @@
     font-family: 'Martel Sans', sans-serif;
     font-size: 18px;
 }
+.header-section .image-section{
+    margin-left: 300px;
+}
 .header-section .image-section img {
     width: 600px;
 }
@@ -40,9 +59,52 @@
     border: none;
     font-size: 20px;
     font-weight: 500;
+    margin-top: 30px;
   }
   
   .glow-button:hover {
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 5px 15px rgba(95, 95, 255, 0.8);
   }
+  .fa-linkedin{
+      color: rgb(95,95,255);
+  }
+
+
+
+
+  /* //scroll Icon// */
+
+
+.icon-scroll,
+.icon-scroll:before{
+  position: absolute;
+}
+.icon-scroll{
+  width: 40px;
+  height: 70px;
+  margin-left: 60px;
+  margin-top: 60px;
+  box-shadow: inset 0 0 0 2px rgb(95,95,255);
+  border-radius: 25px;
+}
+.icon-scroll:before{
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: rgb(95,95,255);
+  margin-left: 16px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+@keyframes scroll{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(46px);
+  }
+}
