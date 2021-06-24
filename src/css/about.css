@@ -2,12 +2,12 @@
     display: grid;
     grid-template-columns: 30% 40%;
     justify-content: space-evenly !important;
-    margin: 110px 0 20px 0;
+    margin: 80px 0 0px 0;
     
 }
 .about-section .text-section{
     text-align: justify;
-    padding: 150px 20px;
+    padding: 150px 20px 0 20px;
     align-items: center;
 }
 .about-section .text-section h1{

@@ -1,8 +1,7 @@
 .header-section {
     display: grid;
     grid-template-columns: 30% auto;
-    margin-top: 50px;
-    margin: 50px 100px;
+    margin: 100px 100px;
 }
 .header-section .text-section .sub-div{
     display: grid;

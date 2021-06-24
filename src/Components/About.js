@@ -3,7 +3,7 @@ import image1 from "../images/186.png";
 import "../css/about.css";
 function About(){
     return (
-        <div className="about-section">
+        <div className="about-section" name="about">
             <div className="image-section">
                 <img src={image1} alt="about" />
             </div>

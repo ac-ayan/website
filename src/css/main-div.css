@@ -2,3 +2,45 @@
     align-items: center !important;
     justify-content: center !important;
 }
+
+.separator {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 0;
+  }
+.separator--dots {
+    overflow: visible;
+    border: 0;
+    content: "";
+    background-color: #030047;
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+  }
+  .separator--dots:before {
+    content: "";
+    background-color: #030047;
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: -32px;
+    -webkit-animation: dot-move-left 1s ease-out forwards;
+            animation: dot-move-left 1s ease-out forwards;
+  }
+  .separator--dots:after {
+    content: "";
+    background-color: #030047;
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 32px;
+    -webkit-animation: dot-move-right 1s ease-out forwards;
+            animation: dot-move-right 1s ease-out forwards;
+  }
+  

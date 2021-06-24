@@ -39,5 +39,19 @@
     color: #5f5fff;
 }
 .nav-section{
+    top: 0;
+    width: 100%;
     padding:0px 175px;
+    position: fixed;
+    z-index: 2;
+    background-color: rgba(255,255,255,.97);
+    
+}
+
+.add-shadow{
+    transition: 0.5s ease;
+    box-shadow: 0 0 5px grey;
+}
+.add-transition{
+    transition: 0.5s ease;
 }
