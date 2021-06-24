@@ -1,5 +1,8 @@
 import $ from "jquery";
 import "../css/navbar.css";
+
+
+
 $(window).scroll(function() {     
     var scroll = $(window).scrollTop();
     if (scroll > 0) {
@@ -8,4 +11,5 @@ $(window).scroll(function() {
     else {
         $("#nav-target").removeClass("add-shadow").addClass("add-transition");
     }
+    
 });

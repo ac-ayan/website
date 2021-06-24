@@ -3,7 +3,7 @@ import "../css/header-section.css";
 import img0 from "../images/034.png";
 function Header(){
     return (
-        <div className="header-section">
+        <div className="header-section" name="top-link">
             <div className="text-section">
                 <div className="sub-div">
                     <div className="social">
