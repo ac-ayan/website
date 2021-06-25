@@ -35,3 +35,19 @@
 .card-img-top {
     height: 250px;
 }
+.custom-button1 {
+    background: #030047;
+    color: rgba(255,255,255,0.8);
+}
+.custom-button2 {
+    background: #5f5fff;
+    color: rgba(255,255,255,0.8);
+}
+.custom-button1:hover{
+    box-shadow: 0 3px 10px rgba(3,0,71,0.8);
+    color: white;
+}
+.custom-button2:hover{
+    box-shadow: 0 3px 10px rgb(95,95,255,0.8);
+    color: white;
+}
