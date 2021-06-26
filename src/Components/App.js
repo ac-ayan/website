@@ -8,9 +8,10 @@ import Education from "./Education";
 import Project from "./Project";
 import Skill from "./Skill";
 import "../css/main-div.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App(){
     return (
-    <div className="main-div">
+    <div className="main-div container">
       <NavBar />
       <Header />
       <hr class="separator separator--dots" />

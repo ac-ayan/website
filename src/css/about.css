@@ -22,3 +22,23 @@
 .about-section .image-section img{
     width: 500px;
 }
+
+@media (max-width: 1454px){
+    .about-section{
+      margin:80px 0px;
+    }
+  }
+@media (max-width: 1238px){
+    .about-section{
+      grid-template-columns: auto;
+      justify-content: center;
+      text-align: center;
+    }
+    .about-section .text-section{
+        padding: 5%;
+        text-align-last: center;
+    }
+    .about-section .image-section img{
+        width: 90%;
+    }
+}

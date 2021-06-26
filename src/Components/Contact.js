@@ -50,7 +50,7 @@ function Contact(){
     </div>
   </div> */}
   <div className="col-12">
-    <button type="submit" className="button glow-button">Send Message</button>
+    <button type="submit" className="button glow-button">Send Message <i class="fas fa-paper-plane"></i></button>
   </div>
 </form>
             </div>

@@ -55,3 +55,40 @@
 .add-transition{
     transition: 0.5s ease;
 }
+
+
+@media (max-width: 1358px){
+    .mr-auto {
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1238px){
+    .mr-auto {
+        margin-left: 100px;
+    }
+    #nav-target{
+        padding-left: 150px;
+    }
+}
+@media (max-width: 1200px){
+    .mr-auto {
+        margin-left: 100px;
+    }
+    #nav-target{
+        padding-left: 120px;
+    }
+}
+@media (max-width: 1150px){
+    .mr-auto {
+        margin-left: 80px;
+    }
+    #nav-target{
+        padding-left:80px;
+    }
+}
+@media (max-width: 992px){
+    #nav-target{
+        padding:15px 10%;
+        justify-content: space-between;
+    }   
+}
