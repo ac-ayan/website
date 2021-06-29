@@ -61,7 +61,7 @@ function Contact(){
       </label>
     </div>
   </div> */}
-  <div className="col-12">
+  <div className="col-12 send-button">
     <button type="submit" className="button glow-button">Send Message <i class="fas fa-paper-plane"></i></button>
   </div>
 </form>

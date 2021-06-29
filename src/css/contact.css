@@ -76,7 +76,11 @@
       color: rgb(95,95,255);
   }
 
-
+.send-button{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 
   @media (max-width:1080px){
       .contact-section{
@@ -93,6 +97,7 @@
     .contact-colored{
         grid-template-columns: auto;
         height: 500px;
+        margin-left: 0 !important;
     }
     .contact-colored i {
         margin: 0;
@@ -100,6 +105,10 @@
     .contact-colored p{
         width: 300px;
         padding: 5px 0;
+    }
+    .colored{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 @media (max-width: 410px){
