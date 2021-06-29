@@ -97,6 +97,10 @@
     .contact-colored i {
         margin: 0;
     }
+    .contact-colored p{
+        width: 300px;
+        padding: 5px 0;
+    }
 }
 @media (max-width: 410px){
     .colored h2{
