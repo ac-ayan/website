@@ -36,7 +36,7 @@ function Education(){
         Kalinga Institute of Industrial Technology
       </div>
       <div class="timeline__event__description">
-        <p>Bachelor of Technology ( B.Tech ) in Computer Science and Engineering.
+        <p>Bachelor of Technology (B.Tech) in Computer Science and Engineering.
         <br></br>
         CGPA : 9.32 / 10
         <br></br>
@@ -63,7 +63,7 @@ function Education(){
         <br></br>
         Board : CBSE
         <br></br>
-        Senior-Secondary (+2) Examination : 87.2 %
+        Senior-Secondary (+2) Exam : 87.2 %
         </p>
       </div>
 
@@ -85,7 +85,7 @@ function Education(){
         <p>
         Board : CBSE
         <br></br>
-        Secondary Examination : 10 CGPA         
+        Secondary Exam : 10 CGPA         
         </p>
       </div>
     </div>
