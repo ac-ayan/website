@@ -10,8 +10,8 @@
     
 }
 .project-section .card-title{
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 28px;
 }
 .card{
     max-width: 400px;
@@ -21,6 +21,8 @@
 .card .card-text{
     text-align: justify;
     text-align-last: center;
+    font-family: 'Dekko', cursive;
+    line-height: 1.7rem;
 }
 .project-list{
     display: grid;
@@ -38,10 +40,12 @@
 .custom-button1 {
     background: #030047;
     color: rgba(255,255,255,0.8);
+    font-size: 22px;
 }
 .custom-button2 {
     background: #5f5fff;
     color: rgba(255,255,255,0.8);
+    font-size: 22px;
 }
 .custom-button1:hover{
     box-shadow: 0 3px 10px rgba(3,0,71,0.8);

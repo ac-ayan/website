@@ -17,7 +17,8 @@
 .about-section .text-section p{
     line-height: 1.9rem;
     font-family: 'Martel Sans', sans-serif;
-    font-size: 18px;
+    font-family: 'Dekko', cursive;
+    font-size: 24px;
 }
 .about-section .image-section img{
     width: 500px;

@@ -5,8 +5,9 @@
 }
 .edu-section{
     padding: 0px 150px;
-    font-family: 'Martel Sans', sans-serif;
-    font-size: 18px;
+    /* font-family: 'Martel Sans', sans-serif; */
+    font-family: 'Dekko', cursive;
+    font-size: 24px;
 }
 
 
@@ -22,7 +23,7 @@
     margin-bottom: 20px;
     position: relative;
     display: flex;
-    margin: 20px 0;
+    margin: 10px 0;
     border-radius: 6px;
     align-self: center;
     width: 70vw;
@@ -65,7 +66,7 @@
             animation: fillLeft 2s forwards 4s ease-in-out;
   }
   .timeline__event__title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.4;
     text-transform: uppercase;
     font-weight: 700;

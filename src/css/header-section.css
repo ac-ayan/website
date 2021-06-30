@@ -39,8 +39,22 @@
     /* font-family: "Titillium Web", sans-serif; */
 }
 .header-section .text-section p{
-    font-family: 'Martel Sans', sans-serif;
-    font-size: 18px;
+    /* font-family: 'Martel Sans', sans-serif; */
+    font-family: 'Dekko', cursive;
+    font-size: 24px;
+}
+.header-section .text-section h3{
+  /* font-family: 'Martel Sans', sans-serif; */
+  font-family: 'Dekko', cursive;
+  font-size: 30px;
+}
+
+.header-section .text-section .text{
+  font-weight: 600;
+  padding: 0;
+    padding-right: 4px;
+    border-right: 2px solid #747474;
+    animation: blink 0.75s infinite;
 }
 .header-section .image-section{
     margin-left: 300px !important;
@@ -53,7 +67,6 @@
     color: rgba(255, 255, 255, 0.8);
     background: rgb(95,95,255);
     padding: 10px 40px;
-    border-radius: 4px;
     font-weight: normal;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
@@ -110,7 +123,15 @@
     transform: translateY(46px);
   }
 } */
-
+.blue {
+  color: #4480ff;
+}
+.yellow {
+  color: #edb32c;
+}
+.red {
+  color: #f44336;
+}
 
 @media (max-width: 1454px){
   .header-section{

@@ -51,6 +51,7 @@
 .add-shadow{
     transition: 0.5s ease;
     box-shadow: 0 0 5px grey;
+    background-color: rgba(226, 231, 245, 0.98);
 }
 .add-transition{
     transition: 0.5s ease;
@@ -88,7 +89,7 @@
 }
 @media (max-width: 992px){
     #nav-target{
-        padding:15px 10%;
+        padding: 0px 10%;
         justify-content: space-between;
     }
     .mr-auto{

@@ -6,6 +6,7 @@
     border-radius: 15px;
     overflow: hidden;
     font-family: 'Martel Sans', sans-serif;
+    font-family: 'Dekko', cursive;
     font-weight: bold;
 }
 .colored{
@@ -20,7 +21,7 @@
 }
 .contact-colored{
     display: grid;
-    grid-template-columns: auto 80%;
+    grid-template-columns: auto auto;
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
@@ -37,13 +38,17 @@
     margin-left: 40px;
 }
 .contact-colored p{
-    padding: 10px 40px;
+    padding: 10px 40px 10px 20px;
     margin: 0;
     width: 350px;
+    font-size: 22px;
+    font-weight: 400 !important;
 }
 .non-colored{
     padding: 40px;
     background-color: #f8f9fa;
+    font-size: 22px;
+    font-weight: 400 !important;
 }
 .non-colored h2{
     font-family: "Special Elite", cursive;
@@ -81,7 +86,20 @@
     text-align: center;
     justify-content: center;
 }
-
+  @media (max-width: 1460px){
+      .contact-colored{
+        grid-template-columns: auto;
+        height: 500px;
+        text-align: center;
+      }
+      .contact-colored i{ 
+          margin: 0 !important;
+          padding-left: 0;
+      }
+      .contact-colored p{ 
+    
+    }
+  }
   @media (max-width:1080px){
       .contact-section{
         margin: 60px 50px;
@@ -95,7 +113,6 @@
 }
 @media (max-width:568px){
     .contact-colored{
-        grid-template-columns: auto;
         height: 500px;
         margin-left: 0 !important;
     }
