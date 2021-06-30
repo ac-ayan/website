@@ -35,13 +35,15 @@
 .contact-colored i{
     color: white !important;
     font-size: 50px;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 .contact-colored p{
-    padding: 10px 40px 10px 20px;
+    font-family: 'Space Mono', monospace;
+    padding: 10px;
     margin: 0;
     width: 350px;
-    font-size: 22px;
+    word-break:break-all;
+    font-size: 18px;
     font-weight: 400 !important;
 }
 .non-colored{
@@ -58,6 +60,7 @@
 
 
 .button {
+    font-family: 'Space Mono', monospace;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
     background: rgb(95,95,255);
@@ -96,9 +99,6 @@
           margin: 0 !important;
           padding-left: 0;
       }
-      .contact-colored p{ 
-    
-    }
   }
   @media (max-width:1080px){
       .contact-section{

@@ -1,94 +1,91 @@
 .header-section {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    margin: 100px 100px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 100px 100px;
 }
-.header-section h5{
+.header-section h5 {
   margin-top: 20px;
 }
-.header-section .text-section .sub-div{
-    display: grid;
-    grid-template-columns: 30% auto;
+.header-section .text-section .sub-div {
+  display: grid;
+  grid-template-columns: 30% auto;
 }
-.header-section .text-section .sub-div ul{
-    list-style-type: none;
-    padding-left: 0px !important;
+.header-section .text-section .sub-div ul {
+  list-style-type: none;
+  padding-left: 0px !important;
 }
-.header-section .text-section .sub-div .social{
-    font-size: 30px;
-    text-align: left;
-    
+.header-section .text-section .sub-div .social {
+  font-size: 30px;
+  text-align: left;
 }
-.header-section .text-section .sub-div ul li{
-    margin: 30px 0;
+.header-section .text-section .sub-div ul li {
+  margin: 30px 0;
 }
-.header-section .text-section{
-    padding-top: 50px;
+.header-section .text-section {
+  padding-top: 50px;
 }
-.header-section .text-section h1{
-    font-size: 80px;
-    font-family: "Baloo Tammudu 2", cursive;
-    /* font-family: "Courgette", cursive; */
-    /* font-family: "Itim", cursive; */
-    /* font-family: "Kalam", cursive; */
-    /* font-family: "Martel Sans", sans-serif; */
-    /* font-family: "Merienda", cursive; */
-    /* font-family: "Patrick Hand", cursive; */
-    /* font-family: "Satisfy", cursive; */
-    font-family: "Special Elite", cursive;
-    /* font-family: "Titillium Web", sans-serif; */
+.header-section .text-section h1 {
+  font-size: 80px;
+  font-family: "Baloo Tammudu 2", cursive;
+  /* font-family: "Courgette", cursive; */
+  /* font-family: "Itim", cursive; */
+  /* font-family: "Kalam", cursive; */
+  /* font-family: "Martel Sans", sans-serif; */
+  /* font-family: "Merienda", cursive; */
+  /* font-family: "Patrick Hand", cursive; */
+  /* font-family: "Satisfy", cursive; */
+  font-family: "Special Elite", cursive;
+  /* font-family: "Titillium Web", sans-serif; */
 }
-.header-section .text-section p{
-    /* font-family: 'Martel Sans', sans-serif; */
-    font-family: 'Dekko', cursive;
-    font-size: 24px;
-}
-.header-section .text-section h3{
+.header-section .text-section p {
   /* font-family: 'Martel Sans', sans-serif; */
-  font-family: 'Dekko', cursive;
+  font-family: "Dekko", cursive;
+  font-size: 24px;
+}
+.header-section .text-section h3 {
+  /* font-family: 'Martel Sans', sans-serif; */
+  font-family: "Dekko", cursive;
   font-size: 30px;
 }
 
-.header-section .text-section .text{
+.header-section .text-section .text {
   font-weight: 600;
   padding: 0;
-    padding-right: 4px;
-    border-right: 2px solid #747474;
-    animation: blink 0.75s infinite;
+  padding-right: 4px;
+  border-right: 2px solid #747474;
+  animation: blink 0.75s infinite;
 }
-.header-section .image-section{
-    margin-left: 300px !important;
+.header-section .image-section {
+  margin-left: 300px !important;
 }
 .header-section .image-section img {
-    width: 600px;
+  width: 600px;
 }
 .button {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.8);
-    background: rgb(95,95,255);
-    padding: 10px 40px;
-    font-weight: normal;
-    text-transform: uppercase;
-    transition: all 0.2s ease-in-out;
-    outline: none;
-    border: none;
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 30px;
-  }
-  
-  .glow-button:hover {
-    color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(95, 95, 255, 0.8);
-  }
-  .fa-linkedin{
-      color: rgb(95,95,255);
-  }
+  font-family: "Space Mono", monospace;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(95, 95, 255);
+  padding: 5px 20px !important;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  border: none;
+  font-size: 24px !important;
+  font-weight: 500;
+  margin-top: 30px;
+}
 
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(95, 95, 255, 0.8);
+}
+.fa-linkedin {
+  color: rgb(95, 95, 255);
+}
 
-
-
-  /* //scroll Icon//
+/* //scroll Icon//
 
 
 .icon-scroll,
@@ -133,62 +130,71 @@
   color: #f44336;
 }
 
-@media (max-width: 1454px){
-  .header-section{
+@media (max-width: 1454px) {
+  .header-section {
     margin: 100px 60px;
   }
 }
-@media (max-width: 1358px){
-  .header-section{
+@media (max-width: 1358px) {
+  .header-section {
     margin: 100px 60px;
   }
-  .header-section .text-section h1{
+  .header-section .text-section h1 {
     font-size: 70px;
     font-family: "Special Elite", cursive;
+  }
+  .header-section .image-section {
+    margin-left: 220px !important;
+  }
 }
-.header-section .image-section{
-  margin-left: 220px !important;
-}
-}
-@media (max-width: 1238px){
-  .header-section{
+@media (max-width: 1238px) {
+  .header-section {
     grid-template-columns: auto;
     justify-content: center;
     text-align: center;
   }
-  .header-section .text-section h1{
+  .header-section .text-section h1 {
     text-align: center;
     font-size: 80px;
     font-family: "Special Elite", cursive;
-}
-.header-section .text-section .sub-div{
-  display: grid;
-  grid-template-columns: 10% auto;
-}
-.header-section .image-section{
- margin-top: 100px;
-}
-.header-section .image-section{
-  margin-left: 0px !important;
-}
+  }
+  .header-section .text-section .sub-div {
+    display: grid;
+    grid-template-columns: 10% auto;
+  }
+  .header-section .image-section {
+    margin-top: 100px;
+  }
+  .header-section .image-section {
+    margin-left: 0px !important;
+  }
 
-/* .icon-scroll{
+  /* .icon-scroll{
   display: none !important;
 } */
-.header-section .image-section img {
-  width: 100%;
+  .header-section .image-section img {
+    width: 100%;
+  }
 }
-}
-@media (max-width: 992px){
-  .social{
+@media (max-width: 992px) {
+  .social {
     display: none;
   }
-  .header-section .text-section .sub-div{
+  .header-section .text-section {
+    padding-top: 10px;
+  }
+  .header-section .text-section .sub-div {
     grid-template-columns: 100%;
+  }
 }
+@media (max-width: 575px) {
+  .main-content h3 {
+    height: 40px;
+    margin-bottom: 20px;
+  }
 }
-@media (max-width: 554px){
-  .header-section .text-section h1{
+@media (max-width: 554px) {
+  .header-section .text-section h1 {
     font-size: 55px;
   }
 }
