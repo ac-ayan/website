@@ -1,7 +1,7 @@
 .about-section{
     display: grid;
     grid-template-columns: 30% 40%;
-    justify-content: space-evenly !important;
+    justify-content: space-around !important;
     padding: 80px 0 30px 0;
     
 }

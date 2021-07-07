@@ -2,7 +2,7 @@ import React from "react";
 import "../css/project.css";
 function ProjectCard(props){
     return (
-        <div class="card" style={{"width": "22rem"}}>
+        <div class="card" style={{"width": "28rem","backgroundColor":props.color}} >
   <img src={props.image} class="card-img-top" alt={props.alttext} />
   <div class="card-body main-card">
     <h5 class="card-title">{props.title}</h5>

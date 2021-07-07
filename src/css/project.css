@@ -4,7 +4,7 @@
     padding-left: 70px;
 }
 .project-section{
-    padding: 30px 150px;
+    padding: 30px 100px;
     font-family: 'Martel Sans', sans-serif;
     font-size: 18px;
     
@@ -18,6 +18,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(255,255,255,0.8);
+    border-radius: 20px;
 }
 .card .card-text{
     text-align: justify;
@@ -28,15 +29,21 @@
 .project-list{
     display: grid;
     grid-template-columns: auto auto auto; 
+    justify-content: space-between;
 }
 .main-card{
     height: 240px;
+    
 }
 .button-card{
     height: 80px;
 }
 .card-img-top {
     height: 250px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 20px 10px ;
+    width: 350px;
+    border-radius: 15px;
 }
 .custom-button1 {
     font-family: 'Space Mono', monospace;

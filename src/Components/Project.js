@@ -8,7 +8,7 @@ function Project(){
             <h1>Projects</h1>
             <div className="project-list">
             {projectdata.map(item =>{
-                return <ProjectCard image={item.image} alttext={item.alttext} title={item.title} content={item.content} />
+                return <ProjectCard image={item.image} alttext={item.alttext} title={item.title} content={item.content} color={item.color} />
             })}
             </div>
 
