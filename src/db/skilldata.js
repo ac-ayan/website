@@ -1,54 +1,62 @@
-import mongodb from "../images/mongo.png";
-import imgc from "../images/c++.svg";
-import exp from "../images/express.png";
-import flutter from "../images/flutter.svg";
+import mongodb from "../images/mongodb.png";
+import imgc from "../images/c.png";
+import imgcpp from "../images/C++.png";
+import flutter from "../images/flutter.png";
+import html5 from "../images/html.png";
+import css from "../images/css.png";
+import js from "../images/js.png";
+import bootstrap from "../images/bootstrap.png";
+import react from "../images/react.png";
+import node from "../images/nodejs.png";
+import express from "../images/express.png";
+import python from "../images/python.png";
 const skilldata = [
     {
-        icon : <i class="fab fa-html5"></i>,
+        icon : <img src={html5} alt="html" width="100px" height="100px" />,
         title : "HTML 5"
     },
     {
-        icon : <i class="fab fa-css3-alt"></i>,
+        icon : <img src={css} alt="css" width="100px" height="100px" />,
         title : "CSS"
     },
     {
-        icon : <i class="fab fa-js-square"></i>,
+        icon : <img src={js} alt="js" width="100px" height="100px" />,
         title : "Javascript"
     },
     {
-        icon : <i class="fab fa-bootstrap"></i>,
+        icon : <img src={bootstrap} alt="bootstrap" width="100px" height="100px" />,
         title : "Bootstrap"
     },
     {
-        icon : <i class="fab fa-react"></i>,
+        icon : <img src={react} alt="react" width="150px" height="100px" />,
         title : "ReactJS"
     },
     {
-        icon : <i class="fab fa-node"></i>,
+        icon : <img src={node} alt="node" width="100px" height="100px" />,
         title : "NodeJS"
     },
     {
-        icon : <img src={exp} style={{"height":"100px"}}></img>,
+        icon : <img src={express} alt="express" width="100px" height="100px" />,
         title : "ExpressJS"
     },
     {
-        icon : <img src={mongodb} style={{"height":"100px"}}></img>,
+        icon : <img src={mongodb} alt="mongodb" width="100px" height="100px" />,
         title : "MongoDB"
     },
     {
-        icon : <i class="fab fa-cuttlefish"></i>,
+        icon : <img src={imgc} alt="c" width="100px" height="100px" />,
         title : "C"
     },
     {
-        icon : <img src={imgc} style={{"height":"100px"}}/>,
+        icon : <img src={imgcpp} alt="cpp" width="100px" height="100px" />,
         title : "C++"
     },
     {
-        icon : <i class="fab fa-python"></i>,
+        icon : <img src={python} alt="python" width="100px" height="100px" />,
         title : "Python"
     },
     {
-        icon : <img src={flutter} style={{"height":"100px"}} />,
+        icon : <img src={flutter} alt="flutter" width="100px" height="100px" />,
         title : "Flutter"
     }
 ];
